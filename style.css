@@ -1,0 +1,48 @@
+body {
+    background-image: url(https://static.wikia.nocookie.net/hades_gamepedia_en/images/9/98/Bg.jpg/revision/latest);
+    text-align: center;
+    font-size: 40px;
+    color: springgreen;
+    box-shadow: 4px 4px 4px ;
+}
+
+.fonts {
+    font-size: 30px;
+    color: chartreuse;
+    background-color: rgb(3, 36, 5);
+    box-shadow: 0px 2px 2px
+}
+
+.fonts:hover {
+    background-color: seagreen;
+    transition: 0.6s;
+
+}
+
+.characters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    border-radius: 100%;
+    width: 250px;
+}
+
+.newimage {
+    width: 350px;
+}
+
+a:visited {
+    color: chartreuse;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+th{
+    border: 3px solid black;
+}
